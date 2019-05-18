@@ -1,5 +1,5 @@
 package pl.sdacademy.designpatterns.factory;
 
-public interface AbstractFactory<T> {
-  T create(String type);
+public interface AbstractFactory<Car> {
+  Car create(String type);
 }

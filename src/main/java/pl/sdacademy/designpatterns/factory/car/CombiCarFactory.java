@@ -25,7 +25,7 @@ public class CombiCarFactory implements AbstractFactory<Car> {
     private Car createAudiA4Combi(){
         return new Audi("A4",
                 EngineType.DIESE,
-                2.0D,
+                2.5D,
                 4,
                 BodyType.COMBI);
     } // createAudiA4Combi()
