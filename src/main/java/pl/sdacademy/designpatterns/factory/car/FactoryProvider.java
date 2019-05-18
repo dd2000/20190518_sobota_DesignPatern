@@ -10,6 +10,6 @@ public class FactoryProvider {
             case COMBIS:
                 return new CombiCarFactory();
         } // switch
-   // return ; //??? ;
+        throw new RuntimeException("Unknown car type!");
     } // AbstractFactory<Car> getFactory()
 }
